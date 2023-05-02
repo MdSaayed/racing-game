@@ -1,0 +1,11 @@
+button{
+    border: none;
+    background: #1bda6b;
+    padding: 5px;
+}
+input{
+    padding: 3px;
+}
+.winner{
+    color: #8045ce;
+}
