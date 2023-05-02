@@ -1,3 +1,6 @@
+body{
+    position: relative;
+}
 button{
     border: none;
     background: #1bda6b;
@@ -8,4 +11,28 @@ input{
 }
 .winner{
     color: #8045ce;
+} 
+.msg_box{
+    width: 100%;
+    position: absolute;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
 }
+.msg{
+    background: #000;
+    border-radius: 3px;
+    height: 100px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.winner_msg_show{
+    display: flex;
+}
+#winner_msg{
+    color: #fff;
+}
+
